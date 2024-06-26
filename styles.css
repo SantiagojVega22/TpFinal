@@ -1,0 +1,346 @@
+*{margin: 0; padding:0; box-sizing: border-box;}
+
+body{
+    background: url('img/fondo.webp') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.logo{
+    height: 100px;
+    border-radius: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav a:hover{
+    color: black;
+    background-color: red;
+    transition: background-color 0.5s ease;
+}
+
+#cont1{
+   padding: 20px;
+   border-radius: 10px;
+   margin: 70px;
+   background: rgba(0, 0, 0, 0.8);
+}
+#cont2{
+   height: 800px;
+   border-radius: 10px;
+   margin: 70px;
+   background: rgba(0, 0, 0, 0.8);
+   color: white;
+}
+#cont3{
+   padding: 10px;
+   height: 650px;
+   border-radius: 10px;
+   margin: 70px;
+   background: rgba(0, 0, 0, 0.8);
+}
+.title{
+    margin: 10px;
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
+
+.title2{
+    font-size: 23px;
+    padding: 10px;
+    color: red;
+}
+.title2 h2{
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.top{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.top h2{
+    color: darkred;
+}
+.top article{
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    background: rgba(250, 250, 250, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+}
+.top article img{
+    border-radius: 20px;
+    width: 250px;
+    height: 320px;
+}
+.top article h2{
+    margin: 10px;
+}
+.top article p{
+    margin: 5px;
+}
+
+#clothes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1500px;
+}
+.product{
+    margin: 10px;
+    background: rgba(250, 250, 250, 0.5);
+    color: black;
+    border-radius: 20px;
+    text-align: right;
+    padding: 20px;
+}
+.product img {
+    float: left;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    margin-right: 200px;
+}
+.product h2{
+    text-decoration: none;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.product p{
+    margin: 10px 0;
+}
+.add{
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: darkred;
+    border-radius: 5px;
+}
+.add:hover{
+    color: black;
+    background-color: red;
+}
+
+#lottery{
+    text-align: center;
+    background: rgba(250, 250, 250, 0.5);
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 5px;
+}
+#lottery a{
+    text-decoration: none;
+    color: darkred;
+}
+#lottery a:hover{
+    color: red;
+}
+
+#staff{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+#staff article{
+    padding: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+aside{
+    margin: 20px;
+    display: flex;
+    column-gap: 5px;
+    
+}
+aside div{
+    height: 330px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+}
+aside div p a{
+    text-decoration: none;
+    color: black;
+}
+aside img{
+    height: 210px;
+    width: 300px;
+}
+.anuncio{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    background-color: skyblue;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.anuncio:hover{
+    background-color: royalblue;
+}
+
+
+#form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form1 div{
+    text-align: center;
+}
+.placehold{
+    background: rgba(0, 0, 0, 0.5);
+    width: 195px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 5px 0;
+    color: gray;
+}
+.placehold2{
+    color: gray;
+    background: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.checked ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 60px ;
+}
+.checked ul li{
+    display: inline-block;
+}
+.checked ul li label{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    width: 140px;
+    transition: .2 all ease;
+}
+.checked ul li label:hover{
+    border: 1px solid darkred;
+}
+.checked ul li input[type="checkbox"]:checked + label {
+    border: 1px solid darkred;
+    background-color: red;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+.checked ul li input[type="checkbox"]{
+    opacity: 0;
+}
+
+.checked ul li input[type="radio"]:checked + label {
+    border: 1px solid darkred;
+    background-color: red;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+.checked ul li input[type="radio"]{
+    opacity: 0;
+}
+.placehold4{
+    width: 125px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: gray;
+}
+.placehold4 option{
+    color: white;
+}
+
+#form2{
+    text-align: center;
+}
+#form2 input{
+    background-color: red;
+    color: black;
+    width: 200px;
+    font-size: 19px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#form2 input:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: red;
+}
+.icons {
+    display: flex; 
+    flex-direction: row; 
+    gap: 15px; 
+    margin-bottom: 10px;
+    justify-content: center; 
+}
+.icons a {
+    display: inline-block;
+    width: 50px; 
+    height: 50px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: background-color 0.3s ease; 
+}
+.icons i {
+    color: red;
+    font-size: 30px;
+}
+.icons a:hover {
+    background-color: rgba(150, 0, 0, 0.8); 
+}
